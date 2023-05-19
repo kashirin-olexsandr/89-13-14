@@ -92,8 +92,7 @@ img {
 .hero-back {
   background-color: #000;
 }
-.container {
-}
+
 .hero-title {
   margin-bottom: 24px;
   font-weight: 300;
@@ -128,4 +127,42 @@ img {
 
   background: #28a745;
   color: #ffffff;
+}
+/* ==========SECTION SECOND */
+.container-solutions{
+  display: flex;
+  color: #FFFFFF;
+}
+.container-section-second-img {
+
+}
+.container-section-second-text{
+  background-color: #28A745;
+  padding:80px 20px ;
+}
+.solutions-subtitle{
+margin-bottom: 8px;
+font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.solutions-title {
+  margin-bottom: 24px;
+  font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.solutions-text {
+  margin-bottom: 24px;
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.solutions-button {
+  font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
