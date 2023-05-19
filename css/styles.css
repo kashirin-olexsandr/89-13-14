@@ -32,6 +32,11 @@ img {
   --color-light: #ffffff;
 }
 /* header */
+.header {
+  position: fixed;
+  width: 100%;
+}
+
 .logo-green {
   color: var(--accent-color);
 }
@@ -44,10 +49,14 @@ img {
 
 .nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .link-logo {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.3;
+  color: #ffffff;
 }
 
 .logo-green {
@@ -63,14 +72,25 @@ img {
 }
 
 .nav-link {
+  color: #ffffff;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* main */
 /* section-hero */
 
 .hero {
-  background-color: rgb(18, 43, 92);
   padding-top: 280px;
   padding-bottom: 292px;
+  background-image: url('../images/hero.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-back {
+  background-color: #000;
 }
 
 .hero-title {
