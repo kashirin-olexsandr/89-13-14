@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.logo-green {
+  color: var(--accent-color);
+}
+.container {
+  width: 1360px;
+  margin: 0 auto;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.link-logo {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.logo-green {
+}
+
+.nav-menu {
+  display: flex;
+  margin-left: auto;
+  gap: 40px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  color: #ffffff;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
